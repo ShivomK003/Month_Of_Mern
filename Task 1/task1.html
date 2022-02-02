@@ -12,17 +12,19 @@
     <h1 align = "center" id="header">LOGIN</h1>  <br> 
     <form>
       <input id="email" type="text" name="email"
-      size="20" placeholder="Email">
-      <input id="pwd" type="password" name="email" size="20" placeholder="Password">
+      size="20" placeholder="Email" autocomplete="on">
+      <input id="pwd" type="password" name="email" size="20" placeholder="Password" autocomplete="on">
     </form>
-    <button  onclick="alert('You have logged in')" id="submit"><b>Login!</b></button><br><br><br>
+    <button id="submit"><b>Login!</b></button><br><br><br>
     <a href = https://www.kjscecodecell.com target="_blank" id="link">GO TO CODECELL PAGE!</a>  
   </div>
   <script>
     var Details=new Array;
-    document.getElementById("submit").onclick=function()
-    {
-      Details[0] =  document.getElementById("email").value;
+    document.getElementById("submit").onclick=function(){
+      Details[0] = document.getElementById("email").value;
+      Details[1] = document.getElementById("pwd").value;
+      console.log(Details);
+      alert("You have logged in.");
     }
   </script> 
 </body>
