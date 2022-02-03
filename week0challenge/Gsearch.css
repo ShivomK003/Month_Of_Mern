@@ -1,9 +1,48 @@
 .adv {
-  margin-top: -20px;
-  margin-left: 1782px;
+  margin-top: -25px;
+  margin-left: 1752px;
 }
 
 .img {
-  margin-top: -145px;
-  margin-left: 1710px;
+  margin-top: -650px;
+  margin-left: 1650px;
+}
+
+.search {
+  margin-top: 300px;
+}
+
+#icon {
+  width: 444.75px;
+  height: 150px;
+}
+
+#bar {
+  margin-top: 50px;
+  width: 850px;
+  font-size: 45pt;
+  border-radius: 30px;
+  border: 3px rgba(211, 211, 211, 0.562) solid;
+}
+
+#button {
+  margin-top: 50px;
+  font-size: 18pt;
+  width: 200px;
+  height: 45px;
+  color: grey;
+  border: 0px rgba(211, 211, 211, 0.562) solid;
+  background-color: rgba(211, 211, 211, 0.562);
+  border-radius: 5px;
+}
+
+#bar:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}
+
+#button:hover {
+  border: 1.5px solid black;
+  color: black;
 }
