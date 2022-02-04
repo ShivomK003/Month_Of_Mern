@@ -1,0 +1,49 @@
+.adv {
+  margin-top: -25px;
+  margin-left: 1752px;
+}
+
+.srch {
+  margin-top: -650px;
+  margin-left: 1650px;
+}
+
+.isearch {
+  margin-top: 300px;
+}
+
+#imgicon {
+  width: 517.14px;
+  height: 200px;
+}
+
+#bar {
+  margin-top: 50px;
+  width: 850px;
+  height: 45pt;
+  font-size: 20pt;
+  border-radius: 30px;
+  border: 3px rgba(211, 211, 211, 0.562) solid;
+}
+
+#button {
+  margin-top: 50px;
+  font-size: 18pt;
+  width: 260px;
+  height: 45px;
+  color: grey;
+  border: 0px rgba(211, 211, 211, 0.562) solid;
+  background-color: rgba(211, 211, 211, 0.562);
+  border-radius: 5px;
+}
+
+#bar:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}
+
+#button:hover {
+  border: 1.5px solid black;
+  color: black;
+}
