@@ -1,0 +1,97 @@
+#aicon {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.navbar {
+  margin-top: -610px;
+  background-color: rgba(128, 128, 128, 0.151);
+  height: 80px;
+  width: 1910px;
+}
+
+.advsearch {
+  margin-top: 150px;
+  font-size: 20pt;
+}
+
+.srch {
+  margin-top: -60px;
+  margin-left: 1719px;
+}
+
+.img {
+  margin-top: -26px;
+  margin-left: 1830px;
+}
+
+#form {
+  margin-top: 50px;
+}
+
+#all,
+#exact,
+#any,
+#none {
+  width: 300px;
+  height: 30px;
+  border: 5px groove rgba(128, 128, 128, 0.329);
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+#all {
+  margin-left: 150px;
+}
+
+#exact {
+  margin-left: 42px;
+}
+
+#any {
+  margin-left: 109px;
+}
+
+#none {
+  margin-left: 96px;
+}
+
+#button {
+  margin-left: 480px;
+  font-size: 12pt;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: rgb(27, 159, 247);
+  border: 4px;
+}
+
+#button:hover {
+  color: black;
+  background-color: rgb(25, 133, 206);
+}
+
+#all:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}
+
+#exact:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}
+
+#any:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}
+
+#none:hover {
+  -webkit-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  -moz-box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+  box-shadow: 5px 9px 9px 0px rgba(50, 50, 50, 0.58);
+}

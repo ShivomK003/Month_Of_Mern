@@ -9,26 +9,32 @@
 </head>
 <body>
   <div class="advsearch">
-    <img src= "G_Icons/gsearch.png" alt="gsearch" id="icon">
-    <form action="https://www.google.com/search" autocomplete="off">
-      <h1 style="color: red;">Advanced Search</h1>
+    <h1 style="color: red;">Advanced Search</h1>
       <hr>
+    <form action="https://www.google.com/search" autocomplete="off" id="form">
       <label>all these words: </label>
-      <input type="text" name="as_q" id="all"><br>
+      <input type="text" name="as_q" id="all"><br><br>
       <label>this exact word or phrase: </label>
-      <input type="text" name="as_epq" id="exact"><br>
+      <input type="text" name="as_epq" id="exact"><br><br>
       <label>any of these words: </label>
-      <input type="text" name="as_oq" id="any"><br>
+      <input type="text" name="as_oq" id="any"><br><br>
       <label>none of these words: </label>
-      <input type="text" name="as_eq" id=""><br>
+      <input type="text" name="as_eq" id="none"><br><br>
       <input type="submit" value="Advanced Search" id="button">
     </form>
   </div>
-    <a href="GSearch_Img.html">
-      <button id="img">Search</button>
+  <div class="navbar">
+    <img src= "G_Icons/gsearch.png" alt="gsearch" id="aicon">
+  <div class="srch">
+    <a href="GSearch.html">
+      <button style="font-size: 13pt">Search</button>
     </a>
-    <a href="GSearch_Adv.html">
-      <button id="srch">Images</button>
-    </a>
+  </div>
+    <div class="img">
+      <a href="GSearch_Img.html">
+      <button style="font-size: 13pt">Images</button>
+    </a></div>
+  </div>
+  
 </body>
 </html>
